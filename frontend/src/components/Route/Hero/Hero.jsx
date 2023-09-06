@@ -6,13 +6,13 @@ import HeroBanner from "../../../Assests/animations/Hero.jpg";
 const Hero = () => {
   return (
     <div
-      className={`relative min-h-[70vh] 800px:min-h-[80vh] w-full bg-no-repeat ${styles.noramlFlex}`}
-      style={{
-        backgroundImage: `url(${HeroBanner})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    className={`relative min-h-[70vh] lg:min-h-[80vh] w-full bg-no-repeat ${styles.normalFlex}`}
+    style={{
+      backgroundImage: `url(${HeroBanner})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
+  >
       <div className={`${styles.section} w-[90%] 800px:w-[60%]`}>
         <Link to="/products" className="inline-block">
           <div
